@@ -34,6 +34,7 @@ Cada commit deverá ser responsável por uma única alteração no software: uma
 A mensagem (ou título) deverá explicar de forma susinta e objetiva o propósito do commit. Sem que seja necessário olhar cada alteração feita no commit, outro membro da equipe deverá ser capaz de ter pelo menos uma boa ideia do que foi feito simplesmente ao olhar sua mensagem.
 
 - :heavy_check_mark: Mensagem com nome significativo e objetivo, como "Corrigido tema escuro da página inicial".
+- :heavy_check_mark: Começe a mensagem com letra maiúscula e termine-a sem ponto final.
 - :x: Mensagem muito grande ou com nome pouco explicativo, como "Correções gerais" ou "Implementado sistema de configuração da aplicação com a correção de X, Y e Z funcionalidades da tela inicial após discussão interna da equipe em preparação para a próxima Sprint".
 - :nerd_face: Tente também manter sua mensagem entre 40 e 72 caracteres.
 - :nerd_face: Caso a equipe trabalhe com atividades que possuem um ID, considere a possibilidade de usar o ID como prefixo das mensagens dos commits. Por exemplo, "[HU001] Corrigido tema escuro da página inicial".
