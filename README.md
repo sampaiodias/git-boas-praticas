@@ -49,4 +49,15 @@ Em um ambiente onde mais de um desenvolvedor trabalha em um mesmo repositório a
 
 ## Branch
 
+Uma branch de um repositório é uma "ramificação" da linha-do-tempo do projeto a partir de um determinado ponto, permitindo encapsular mudanças e adições ao software até que ele esteja pronto para se juntar à ramificação principal. Esse é um recurso extremamente importante e útil do Git, mas que pode gerar confusões ao ser usado erroneamente.
+
+### Múltiplas branches
+
+Para softwares criados em equipe, é praticamente imprescindível que o desenvolvimento seja feito em várias branches que são atualizadas diariamente em paralelo.
+
+- :heavy_check_mark: Cada membro (ou ao menos parte da equipe) trabalha em branches separadas, geradas a partir de outra branch (como a 'master' ou 'develop').
+- :heavy_check_mark: Cada branch criada representa uma funcionalidade que é desenvolvida para o software.
+- :x: Todos trabalham em uma única branch, seja ela a 'master' ou a 'develop'.
+- :nerd_face: Crie uma branch secundária (usualmente chamada de 'develop') para agrupar as últimas adições feitas pela equipe.
+
 ## Git Flow
