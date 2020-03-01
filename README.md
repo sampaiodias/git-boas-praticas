@@ -60,4 +60,14 @@ Para softwares criados em equipe, é praticamente imprescindível que o desenvol
 - :x: Todos trabalham em uma única branch, seja ela a 'master' ou a 'develop'.
 - :nerd_face: Crie uma branch secundária (usualmente chamada de 'develop') para agrupar as últimas adições feitas pela equipe.
 
+### Nomenclatura
+
+Não existe um padrão único de nomenclatura de branches na comunidade Git, mas algumas boas práticas constumam aparecer em todas.
+
+- :heavy_check_mark: Nome da branch é significativo, ajudando a entender qual o propósito daquela branch.
+- :heavy_check_mark: Nome da branch é curto, geralmente com até 20 caracteres.
+- :heavy_check_mark: Nome de todas as branches seguem kebab case ou camel case.
+- :x: Nome da branch contém o nome do desenvolvedor responsável por ela.
+- :x: Nome da branch possui siglas não usuais (ex.: 'funcEnvioTarefa').
+
 ## Git Flow
