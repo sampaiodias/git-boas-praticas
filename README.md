@@ -36,10 +36,11 @@ A mensagem (ou título) deverá explicar de forma susinta e objetiva o propósit
 - :heavy_check_mark: Mensagem com nome significativo e objetivo, como "Corrigido tema escuro da página inicial".
 - :x: Mensagem muito grande ou com nome pouco explicativo, como "Correções gerais" ou "Implementado sistema de configuração da aplicação com a correção de X, Y e Z funcionalidades da tela inicial após discussão interna da equipe em preparação para a próxima Sprint".
 - :nerd_face: Tente também manter sua mensagem entre 40 e 72 caracteres.
+- :nerd_face: Caso a equipe trabalhe com atividades que possuem um ID, considere a possibilidade de usar o ID como prefixo das mensagens dos commits. Por exemplo, "[HU001] Corrigido tema escuro da página inicial".
 
 ### Evitando conflitos
 
-Em um ambiente mais de um desenvolvedor trabalha em um mesmo repositório ao mesmo tempo, alguns cuidados simples poderão evitar muita dor de cabeça no futuro ao evitar conflitos (alterações em um mesmo arquivo tentam se "juntar" sem sucesso).
+Em um ambiente onde mais de um desenvolvedor trabalha em um mesmo repositório ao mesmo tempo, alguns cuidados simples poderão evitar muita dor de cabeça no futuro ao evitar conflitos (alterações em um mesmo arquivo tentam se "juntar" sem sucesso).
 
 - :heavy_check_mark: Cada desenvolvedor tenta sempre alterar apenas os arquivos que outros desenvolvedores não estejam alterando no momento.
 - :x: Cada desenvolvedor altera e/ou apaga qualquer arquivo para atender a necessidade de sua tarefa.
