@@ -29,6 +29,14 @@ Cada commit deverá ser responsável por uma unica alteração no software: uma 
 - :heavy_check_mark: Commit possui poucas alterações com um único propósito, alterando ou adicionando poucos arquivos.
 - :x: Commit possui vários arquivos alterados e adicionados (mais de 10) e implementa duas ou mais funcionalidades.
 
+### Mensagem clara
+
+A mensagem (ou título) deverá explicar de forma suscinta e objetiva o propósito do commit. Sem que seja necessário olhar cada alteração feita no commit, outro membro da equipe deverá ser capaz de ter pelo menos uma boa idéia do que foi feito simplemente ao olhar sua mensagem.
+
+- :heavy_check_mark: Mensagem com nome significativo e objetivo, como "Corrigido tema escuro da página inicial".
+- :x: Mensagem muito grande ou com nome pouco explicativo, como "Correções gerais" ou "Implementado sistema de configuração da aplicação com a correção de X, Y e Z funcionalidades da tela inicial após discussão interna da equipe em preparação para a próxima Sprint".
+- :nerd_face: Tente também manter sua mensagem entre 40 e 72 caracteres.
+
 ## Branch
 
 ## Git Flow
