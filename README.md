@@ -71,12 +71,20 @@ Para softwares criados em equipe, é praticamente imprescindível que o desenvol
 
 ### Nomenclatura
 
-Não existe um padrão único de nomenclatura de branches na comunidade Git, mas algumas boas práticas constumam aparecer em todas.
+Não existe um padrão único de nomenclatura de branches na comunidade Git, mas algumas boas práticas costumam aparecer em todas.
 
 - :heavy_check_mark: Nome da branch é significativo, ajudando a entender qual o propósito daquela branch.
 - :heavy_check_mark: Nome da branch é curto, geralmente com até 20 caracteres.
 - :heavy_check_mark: Nome de todas as branches seguem kebab case ou camel case.
 - :x: Nome da branch contém o nome do desenvolvedor responsável por ela.
 - :x: Nome da branch possui siglas não usuais (ex.: 'funcEnvioTarefa').
+
+### Merge
+
+Quando uma funcionalidade estiver pronta ou em um estágio que é necessário juntá-la ao resto do software, um merge (ou junção) da branch com outra branch deverá ser feita. Esta é uma ação importante e que requer especial atenção, já que um merge mal planejado pode consumir horas de trabalho ao tentar resolver conflitos inesperados.
+
+- :heavy_check_mark: Planeje e comunique os merges com sua equipe. Todos devem estar cientes do que está sendo juntado e quando isso será feito.
+- :heavy_check_mark: Após feito o merge, resolva os eventuais conflitos que aparecerem e teste o software antes de fazer o push das alterações locais feitas pelo merge. Caso desejado, é possível desfazer o merge antes de realizar seu envio para repositório remoto (push).
+- :nerd_face: Realize os merges primeiramente numa branch secundária (ex.: 'develop') e, em certos intervalos de tempo, faça o merge da branch secundária para a branch principal, sinalizando uma nova versão em produção.
 
 ## Git Flow
