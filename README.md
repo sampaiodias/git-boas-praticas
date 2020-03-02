@@ -47,6 +47,15 @@ Em um ambiente onde mais de um desenvolvedor trabalha em um mesmo repositório a
 - :x: Cada desenvolvedor altera e/ou apaga qualquer arquivo para atender a necessidade de sua tarefa.
 - :nerd_face: Ao ver a necessidade de alterar um arquivo criado ou atualmente usado por outro desenvolvedor, pergunte-o sobre a possibilidade de alterar o(s) arquivo(s) para entrarem em um consenso sobre a melhor maneira de fazê-lo evitando conflitos.
 
+### Pull e Push
+
+Para receber (pull) e enviar (push) commits do repositório remoto, também existem algumas práticas que tornam o fluxo de trabalho em equipe mais produtivo e seguro.
+
+- :heavy_check_mark: Após terminar uma atividade, teste o software para garantir que tudo esteja funcionando corretamente. Feito isso, faça o push logo após a criação do commit.
+- :heavy_check_mark: Caso outra pessoa esteja trabalhando na mesma branch, será necessário fazer o pull do repositório antes de fazer o push. Eventuais conflitos poderão aparecer (vide tópico anterior), resolva-os antes de prosseguir.
+- :x: Criar um ou mais commits sem enviá-los ao repositório remoto.
+- :x: Criar commits sem testar o software devidamente, correndo o risco de atrapalhar a equipe ao fazer o push.
+
 ## Branch
 
 Uma branch de um repositório é uma "ramificação" da linha-do-tempo do projeto a partir de um determinado ponto, permitindo encapsular mudanças e adições ao software até que ele esteja pronto para se juntar à ramificação principal. Esse é um recurso extremamente importante e útil do Git, mas que pode gerar confusões ao ser usado erroneamente.
