@@ -18,9 +18,15 @@ Legenda:
 
 ## Repositório
 
+Em breve.
+
 ## Commit
 
 Cada commit é uma "fotografia" do repositório, agrupando um conjunto de alterações no software. Fazer um commit é a tarefa mais rotineira durante o desenvolvimento, sendo talvez a mais crítica de atenção também.
+
+<p align="center">
+  <img src="img/commits.png" />
+</p>
 
 ### Propósito único
 
@@ -38,6 +44,10 @@ A mensagem (ou título) deverá explicar de forma susinta e objetiva o propósit
 - :x: Mensagem muito grande ou com nome pouco explicativo, como "Correções gerais" ou "Implementado sistema de configuração da aplicação com a correção de X, Y e Z funcionalidades da tela inicial após discussão interna da equipe em preparação para a próxima Sprint".
 - :nerd_face: Tente também manter sua mensagem entre 40 e 72 caracteres.
 - :nerd_face: Caso a equipe trabalhe com atividades que possuem um ID, considere a possibilidade de usar o ID como prefixo das mensagens dos commits. Por exemplo, "[HU001] Corrigido tema escuro da página inicial".
+
+<p align="center">
+  <img src="img/staging.png" />
+</p>
 
 ### Evitando conflitos
 
@@ -59,6 +69,10 @@ Para receber (pull) e enviar (push) commits do repositório remoto, também exis
 ## Branch
 
 Uma branch de um repositório é uma "ramificação" da linha-do-tempo do projeto a partir de um determinado ponto, permitindo encapsular mudanças e adições ao software até que ele esteja pronto para se juntar à ramificação principal. Esse é um recurso extremamente importante e útil do Git, mas que pode gerar confusões ao ser usado erroneamente.
+
+<p align="center">
+  <img src="img/branches.png" />
+</p>
 
 ### Múltiplas branches
 
@@ -87,4 +101,11 @@ Quando uma funcionalidade estiver pronta ou em um estágio que é necessário ju
 - :heavy_check_mark: Após feito o merge, resolva os eventuais conflitos que aparecerem e teste o software antes de fazer o push das alterações locais feitas pelo merge. Caso desejado, é possível desfazer o merge antes de realizar seu envio para repositório remoto (push).
 - :nerd_face: Realize os merges primeiramente numa branch secundária (ex.: 'develop') e, em certos intervalos de tempo, faça o merge da branch secundária para a branch principal, sinalizando uma nova versão em produção.
 
+<p align="center">
+  <img src="img/conflict.png" />
+</p>
+
+
 ## Git Flow
+
+Em breve.
