@@ -108,4 +108,14 @@ Quando uma funcionalidade estiver pronta ou em um estágio que é necessário ju
 
 ## Git Flow
 
-Em breve.
+O GitFlow é um fluxo de trabalho criado por [Vicent Driessen](https://nvie.com/posts/a-successful-git-branching-model/) em 2010 e é considerado por muitos o workflow de git mais adotado, e por um bom motivo. Assim como o este guia, o GitFlow tem como um de seus propósitos um versionamento mais fácil e seguro através da adoção de boas práticas comuns à equipe. Algumas dicas simples são o suficiente para que você acompanhe sua equipe neste workflow.
+
+<i>Dica: Para um resumo dos comandos mais importantes do Git Flow, [clique aqui](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html).</i>
+
+- :heavy_check_mark: O Git Flow precisa ser iniciado (<i>git flow init</i>) em cada repositório local, e não apenas uma única vez para todos os membros da equipe. Por isso, inicialize o Git Flow com as configurações usadas pela equipe antes de usá-lo.
+- :heavy_check_mark: Caso você esteja em uma equipe que usa Git Flow, certifique-se de aprender pelo menos os [comandos mais importantes](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html) (tanto na linha de comando quanto no seu cliente Git de preferência, se houver suporte).
+- :heavy_check_mark: Ao criar outras branches com o Git Flow (feature, hotfix ou release), use a nomenclatura de branches usada pela equipe (vide tópico de [Nomenclatura de Branches](#nomenclatura)).
+- :heavy_check_mark: Caso a equipe utilize o Git Flow, use os comandos do próprio Git Flow para fazer a criação e finalização de features, hotfixes e releases. Isso é importante pois cada comando do Git Flow [executa um ou mais comandos git em sequência](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac).
+- :heavy_check_mark: Se necessário, faça manualmente um merge da develop ou outra feature para a sua branch para obter atualizações importantes para a realização da sua tarefa.
+- :nerd_face: Em casos excepcionais, é possível criar features a partir de outras branches que não seja a develop (exemplo: <i>git flow feature nome-da-nova-feature feature/branch-de-origem</i>).
+- :nerd_face: É possível também finalizar as branches do Git Flow com um rebase. Como esse não é o comportamento padrão do Git Flow, faça desta forma apenas quando for o padrão adotado pela equipe.
