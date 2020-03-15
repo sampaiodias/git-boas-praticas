@@ -18,7 +18,12 @@ Legenda:
 
 ## Repositório
 
-Em breve.
+Assim como você já deve saber, o repositório é onde os arquivos da sua aplicação ficam armazenados e versionados. Talvez por ser algo tão básico, alguns desenvolvedores acabam não cuidando de seu repositório da forma adequada, provocando não só desorganização mas muitas vezes conflitos que podem custar horas valiosas à sua equipe. Não deixe isso acontecer justamente com o "alicerce" do versionamento do seu projeto.
+
+- :heavy_check_mark: Caso você seja administrador do repositório, controle o acesso às funcionalidades que podem ser executadas no repositório remoto (ex.: realizar merges para a branch master).
+- :heavy_check_mark: Não envie arquivos de build, temporários ou de sua IDE para o repositório remoto. Para isso, adicione as devidas pastas e tipos de arquivo no arquivo ".gitignore". Uma boa versão inicial deste arquivo pode ser encontrada [clicando aqui](https://github.com/github/gitignore).
+- :heavy_check_mark: Caso o seu repositório esteja disponível publicamente, não deixe de colocar um arquivo de licença apropriado na pasta raíz do seu repositório, sendo este arquivo um arquivo de texto simples com o nome 'LICENSE' (sem aspas e sem extensão de arquivo).
+- :nerd_face: Se a sua aplicação utiliza arquivos grandes (10MB ou mais) no versionamento, considere a utilização do Git LFS. Porém, atente-se antes ao suporte e preços da utilização desta ferramenta no site em que você hospeda seu repositório.
 
 ## Commit
 
