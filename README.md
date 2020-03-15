@@ -119,3 +119,11 @@ O GitFlow é um fluxo de trabalho criado por [Vicent Driessen](https://nvie.com/
 - :heavy_check_mark: Se necessário, faça manualmente um merge da develop ou outra feature para a sua branch para obter atualizações importantes para a realização da sua tarefa.
 - :nerd_face: Em casos excepcionais, é possível criar features a partir de outras branches que não seja a develop (exemplo: <i>git flow feature nome-da-nova-feature feature/branch-de-origem</i>).
 - :nerd_face: É possível também finalizar as branches do Git Flow com um rebase. Como esse não é o comportamento padrão do Git Flow, faça desta forma apenas quando for o padrão adotado pela equipe.
+
+<p align="center">
+  <img src="img/git-flow.png" />
+</p>
+
+<p align="center">
+  <img src="img/feature-start.png" />
+</p>
