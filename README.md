@@ -25,6 +25,10 @@ Assim como você já deve saber, o repositório é onde os arquivos da sua aplic
 - :heavy_check_mark: Caso o seu repositório esteja disponível publicamente, não deixe de colocar um arquivo de licença apropriado na pasta raíz do seu repositório, sendo este arquivo um arquivo de texto simples com o nome 'LICENSE' (sem aspas e sem extensão de arquivo).
 - :nerd_face: Se a sua aplicação utiliza arquivos grandes (10MB ou mais) no versionamento, considere a utilização do Git LFS. Porém, atente-se antes ao suporte e preços da utilização desta ferramenta no site em que você hospeda seu repositório.
 
+<p align="center">
+  <img src="img/git-init.png" />
+</p>
+
 ## Commit
 
 Cada commit é uma "fotografia" do repositório, agrupando um conjunto de alterações no software. Fazer um commit é a tarefa mais rotineira durante o desenvolvimento, sendo talvez a mais crítica de atenção também.
